@@ -1,0 +1,28 @@
+import type { DetailSpec } from '@/engine/types';
+
+export const DETAILS: readonly DetailSpec[] = [
+  { id: 'carbs', unit: 'g', group: 'macro' },
+  { id: 'sugar', unit: 'g', group: 'macro' },
+  { id: 'fibre', unit: 'g', group: 'macro' },
+  { id: 'protein', unit: 'g', group: 'macro' },
+  { id: 'fat', unit: 'g', group: 'macro' },
+  { id: 'satFat', unit: 'g', group: 'macro' },
+  { id: 'cholesterol', unit: 'mg', group: 'macro' },
+  { id: 'calcium', unit: 'mg', group: 'mineral' },
+  { id: 'iron', unit: 'mg', group: 'mineral' },
+  { id: 'magnesium', unit: 'mg', group: 'mineral' },
+  { id: 'phosphorus', unit: 'mg', group: 'mineral' },
+  { id: 'potassium', unit: 'mg', group: 'mineral' },
+  { id: 'sodium', unit: 'mg', group: 'mineral' },
+  { id: 'zinc', unit: 'mg', group: 'mineral' },
+  { id: 'vitaminA', unit: 'µg', group: 'vitamin' },
+  { id: 'vitaminC', unit: 'mg', group: 'vitamin' },
+  { id: 'vitaminD', unit: 'µg', group: 'vitamin' },
+  { id: 'vitaminE', unit: 'mg', group: 'vitamin' },
+  { id: 'vitaminK', unit: 'µg', group: 'vitamin' },
+  { id: 'thiamin', unit: 'mg', group: 'vitamin' },
+  { id: 'riboflavin', unit: 'mg', group: 'vitamin' },
+  { id: 'niacin', unit: 'mg', group: 'vitamin' },
+  { id: 'folate', unit: 'µg', group: 'vitamin' },
+  { id: 'vitaminB12', unit: 'µg', group: 'vitamin' },
+];
